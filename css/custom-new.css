@@ -1,0 +1,438 @@
+/*TROUBLE SHOOTING*/
+
+.test {
+	border:1px solid red;
+}
+
+
+
+
+.caption {
+font-size: small;
+padding: 5px 5px;
+}
+
+
+
+/* HTML styles */
+
+body {
+  background-color: #447FB3;
+  color: white;
+  margin: 0;
+}
+
+
+
+
+/* ac header logo */
+
+img.ac {
+height: 25px;
+width: auto;
+}
+
+/* -nticonsultant text position*/
+
+
+a.mobilehead:link, a.f:visited {
+color: white !important;
+}
+
+a.mobilehead:hover {
+color: white;
+/* 
+text-shadow: 1px 2px 10px #000
+ */
+}
+
+
+/* position for primnav (on right side) */
+
+.mobilehead .primnav {
+    position: absolute;
+    z-index: 999;
+/* 
+    top: 12px;
+ */
+    right: 5px;
+	width: 50px;
+    height: 50px;
+	display: inline-block;	
+    text-align: center;
+    }
+
+
+.flexnav .mobilehead {
+	position: relative;
+	top: 1.4em;
+	}
+
+
+div.mobilehead {
+	position: relative;
+	display: block;
+	padding: .9em;
+	background: #447FB3;
+	cursor: pointer;
+	}
+
+/* flexnav related styles */
+
+
+
+/* style for flexnav navigation */
+
+/* style for navigation rows */
+.flexnav li.f {
+font-size: 16px;
+background-color: #428CCC;
+color: #FDFFDB;
+}
+
+
+
+
+
+
+
+
+/* style for submenu rows */
+.flexnav li ul li.f {
+font-size: 12px;
+    }
+
+/* Hover attributes for menu and submenus
+NOTE: only active elements should have this behavior */
+
+.f a:hover {
+background-color: #FDFFDB;
+}
+
+.f .primnav {
+    position: absolute;
+    z-index: 999;
+    top: 6px;
+    right: 5px;
+	width: 50px;
+    height: 50px;
+	display: inline-block;	
+    text-align: center;
+
+    }
+
+
+
+.j {
+font-size: 120%;
+position: absolute;
+display: inline-block;
+top: 17px;
+left: 45%;
+}
+
+.j:hover {
+/* 
+text-shadow: 1px 2px 10px #000
+ */
+}
+
+.h {
+font-size: 100%;
+position: absolute;
+display: inline-block;
+text-shadow: 1px 2px 3px #000
+
+}
+
+
+
+.ac-sm {
+font-size: 50%;
+color: #fff;
+}
+
+.g {
+position: relative;
+display: inline-block;
+color: #447FB3;
+font-size: 80%;
+top:5px;
+}
+
+.g:hover {
+}
+
+
+
+ 
+.active {
+}
+
+
+
+#ring {
+	display: inline;
+	}
+
+
+
+/* custom styles */
+
+
+
+
+/* custom font styles */
+.tkfg-demi, strong, b {
+font-style: normal;
+font-weight: 700;
+}
+
+.tkfg-demi-italic{
+font-style: italic;
+font-weight: 700;
+}
+
+.tkfg-medium {
+font-style: normal;
+font-weight: 500;
+}
+
+.tkfg-medium-italic{
+font-style: italic;
+font-weight: 500;
+}
+
+
+
+
+.fff {
+color:#fff;
+}
+
+.gr {
+color:grey;
+}
+
+
+.exp-menu {
+position:fixed;
+bottom:0px;
+left:0px;
+width:100%;
+line-height:12px;
+height:30px;
+background:#000;
+padding:3px 0 0 3px;
+vertical-align: baseline;
+min-height: 0px;
+display: block;
+box-sizing: border-box;
+opacity: 0.9;
+filter:alpha(opacity=60);
+}
+
+.exp-menu div {
+}
+
+
+
+/*.exp-menu {
+position:absolute;
+bottom:20px;
+left:141px;
+z-index:80;
+width:100%;
+line-height:12px
+}
+
+.exp-menu div {
+height:56px;
+background:#000;
+opacity:0.6;
+filter:alpha(opacity=60);
+padding:7px 0 0 7px;
+}
+*/
+
+.exp {
+background-color: white;
+border: 1px solid red;
+}
+
+
+/* global resets */
+
+/* top nav styles */
+
+/* header styles */
+
+/* main article styles */
+
+/* forms styles */
+
+/* sidebar styles */
+
+/* news styles */
+
+
+/* table styles */
+/* Tables 
+table tr td {
+  background: none;
+  color:#fff;
+}
+
+table tfoot {
+    background: none;
+    font-weight: bold; 
+    color:#fff;
+    }
+
+table thead tr th,
+    table thead tr td,
+    table tfoot tr th,
+    table tfoot tr td 
+{
+      color: #fff;
+}
+
+  table tr th,
+  table tr td {
+    color: #fff; 
+    }
+
+  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: none;
+    color: #fff; }
+*/
+
+/* list styles */
+ul ul { font-size: 10pt;  margin-left:10px}
+
+.nobull {list-style-type:none;}
+
+.horiz ul li { 
+	display: inline; 
+	padding-right:10%;
+}
+
+
+/* iframe styles -- based on flex-video */
+.flex-IF {
+  position: relative;
+  padding-top: 1.5625em;
+  padding-bottom: 50%;
+  height: 0;
+  margin-bottom: 1em;
+  overflow: hidden; }
+  
+  .flex-IF.widescreen {
+    padding-bottom: 5%; }
+  
+  .flex-IF iframe,
+  .flex-IF object,
+  .flex-IF embed,
+  .flex-IF video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+
+/* orbit styles */
+
+
+/* footer styles */
+.site-footer {
+/* 
+	overflow: hidden;
+ */
+	clear: both;
+}
+.site-footer span {
+/* 
+   border-top: 1px solid #c9c9c9;
+ */
+   padding: .2em .2em;
+   margin: 0;
+   font-size: .75em;
+   color: #808180;
+/* 
+ */
+}
+.footeractions {
+	float: right;
+	margin: 1em 1em 1em .25em;
+	padding: 0;
+}
+
+.footeractions li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.footeraction {
+	display:block;
+	background-color: #000;
+	border-left: solid 5px #000;	
+	padding: 8px;
+/*	-moz-box-shadow: 0px 1px 2px #000;
+	-webkit-box-shadow: 0px 1px 2px #000;
+	box-shadow: 0px 1px 2px #000; 
+	margin-bottom: 12px;*/
+}
+.footeraction span {
+	display:block;
+	text-indent: -4000px;
+}
+/*.footeractionRSS {
+	width: 29px;
+	height: 22px;
+	background:url(http://static.lukew.com/lukew_sprite_06072012.png) no-repeat;
+
+}
+.footeractionTW {
+	width: 30px;
+	height: 22px;
+	background:url(http://static.lukew.com/lukew_sprite_06072012.png) no-repeat -25px -138px;
+} */
+.footeractionTW {
+	width: 30px;
+	height: 30px;
+	background:url(../img/twitter.png) no-repeat;
+	background-size: 30px 30px;
+}
+
+
+/* desktop/laptop  -----------------------*/
+@media screen and (min-width: 52em) {
+	.footeractions li {
+		float: left;
+		margin-right: .7em;
+	}
+	.site-footer p {
+		padding: 2.1em 1.5em;
+	}					}
+	
+	
+	
+	
+	
+	
+	
+	
+	/* picPanels */
+.picpanel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  margin-bottom: .25em;
+  padding: .25em;
+  background: #f2f2f2; 
+ -webkit-border-radius: 5px;
+  border-radius: 5px;
+  
+  }
+  

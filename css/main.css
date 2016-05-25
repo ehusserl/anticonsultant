@@ -1,0 +1,84 @@
+body {font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;}
+
+.horiz {width:4900px;}
+
+.mgr {list-style-image:url('../img/mgr.gif');}
+
+.move {list-style-image:url('../img/plane.png');}
+
+.co {list-style-image:url('../img/monitor.gif');}
+
+.up
+{
+	font-size: 12pt;
+	color:#ccddcc;
+	width: 20px;
+	font-weight: 900;
+	float:left;
+	padding-right: 10px;
+	text-align:center;
+}
+
+
+.highlights
+{
+	font-size: 12pt;
+	color: #000;
+	font-family: silkscreen;
+	font-weight: 100;
+	float: left;
+	padding-right: 30px;
+	text-align: center;
+	line-height: 16pt;
+	text-transform: capitalize;
+}
+
+
+.month, .year
+{
+	font-size: 16pt;
+	color:#ccddcc;
+	width: 175px;
+	font-weight: 900;
+	float:left;
+	border-left:1px #ccddcc solid;
+	padding-right: 10px;
+	padding-left: 1px;
+}
+
+.innov
+{
+	font-size: 16pt;
+	color:#ccddcc;
+	width: 150px;
+	font-weight: 900;
+	float:left;
+	padding: 3px;
+}
+
+
+div.month:hover, div.year:hover
+{
+	background-color: #FFF;
+	color:#333333;
+}
+
+div.back:hover {background-color: #66F;}
+
+.list
+{
+	font-size:10pt;
+	color:#000;
+}
+
+ul {
+	padding-bottom: 5px;
+	font-size:8pt;
+}
+
+li {
+	padding-bottom: 10px;
+	font-weight: 400;
+}
+
+.focus, .focus a {color: #C00;}
