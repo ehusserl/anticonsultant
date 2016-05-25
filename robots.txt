@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /work/
+Disallow: /invest/
+Disallow: /comm/
+Disallow: /ctc/
+Disallow: /friendsofdorothy/
+Disallow: /img/
+Disallow: /seeem.html
+Disallow: /meta.txt
+Disallow: /style.css
+Disallow: /weblog/2008/presentation

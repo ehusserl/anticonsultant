@@ -1,0 +1,14 @@
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Language" content="en-us" />
+
+<!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> -->
+
+<meta name="author" content="Thomas Richardson" />
+<meta name="copyright" content="Copyright (c) 2005 Silicongorge LLC" />
+
+<meta http-equiv="Description" content="silicongorge high-end freelance Web consulting unit located in the San Francisco Bay Area ...">
+<meta http-equiv="Keywords" content="web communications, web design, build, usability, user interface, SEO, Search Engine Optimization, web development, multimedia authoring, analysis, higher education, university, college, cornell university, Ivy League, promotion, marketing, public relations, ">
+
+<meta name="robots" content="all" />
+<meta http-equiv="imagetoolbar" content="false" />
+
